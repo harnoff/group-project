@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Pacifico, serif;
 }
 
 body {
@@ -10,39 +11,67 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	color: yellow;
+	color: black;
 	display: block;
 	margin: 8px;
+}
 
 .nav {
+    display: block;
+    width: 100%;
+}
+
+.nav ul li {
     list-style-type: none;
-    text-align: center;
-    overflow: hidden;
-    background-color: #333333;
-    margin: 0;
-    padding; 0;
-    position: fixed;
-    top: 0;
-    left: 0;
 	text-decoration: none;
 }
 
- li {
-    float: left;
-    }
-
-li a {
+.nav li a {
+	float: left;
 	display: block;
     color: white;
     text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	font-size: 2em;
 }
 
 li a:hover {
 	background-color: blue;
 }
 
-li a:hover:not( .active) {
+li a:hover:not .active) {
         background-color: black;
     }
+    
+.Equation {
+    display: block;
+    
+}
+
+.Equation h1 a {
+    font-size: 2em;
+    color: blue;
+}
+    
+.footer {
+    clear: both;
+    background-color:grey;
+    font-size:16px;
+    text-align: center
+}
+    
+.content {
+    clear:both;
+    border-radius: 1px;
+    text-align: center;
+    color: blue;
+    font-family: courier;
+}
+
+.credit {
+    margin-top: 0;
+    font-size: .85em;
+    padding: 3px 5px;
+    text-align: center;
+}
